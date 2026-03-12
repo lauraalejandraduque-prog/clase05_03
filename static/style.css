@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(63, 50, 185);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.contenedor{
+    background-color: rgb(243, 239, 8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(66, 197, 197);
+    max-width: 400px;
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+}
+
+button{
+    color: rgb(133, 5, 133);
+    background-color: rgb(243, 239, 8);
+}

@@ -24,7 +24,8 @@ def modelo():
         ventanas.solve()  #instruccion para resolver el modelo
         res1= x1.varValue
         res2= x2.varValue
-        fo=ventanas.objective.varValue
+        fo = ventanas.objective.value()
+
         return render_template("optimizacion.html", res1=res1, res2=res2, fo=fo)
 
     return render_template("optimizacion.html")
